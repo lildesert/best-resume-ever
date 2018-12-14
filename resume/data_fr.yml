@@ -1,0 +1,69 @@
+/* #*/ export const PERSON = `
+name:
+  first: Julien
+  middle:
+  last: Bistoquet
+about: Je suis un jeune diplômé à la recherche d'opportunités à l'international en tant qu'ingénieur logiciel. Je cherche à développer mes compétences professionelles dans un nouvel environnement culturel et linguistique.
+position: Software Engineer
+
+birth:
+  year: 1991
+  location: Thiais
+
+experience:
+- company: OneUp
+  position: Frontend developer
+  timeperiod: depuis Février 2016
+  description: Design et développement de nouvelles fonctionnalités pour OneUp.
+
+- company: Bouygues Telecom
+  position: Fullstack developer
+  timeperiod: Septembre 2012 - Septembre 2015
+  description: Design et développement de multiples applications web (gestion de réclamations, planning conseillers, référentiel d'applications).
+
+- company: RATP
+  position: Web developer (stage)
+  timeperiod: Janvier 2012 - Février 2012
+  description: Développement d'une application web d'estimation financière.
+
+- company: BC Partners
+  position: Web developer (stage)
+  timeperiod: Mai 2011 - Juin 2011
+  description: Refonte du site de l’entreprise avec le CMS Joomla.
+
+education:
+- degree: Master MIAGE - Université Paris Dauphine
+  timeperiod: Septembre 2012 - Septembre 2015
+  description: Spécialité Système d'Information et Technologies Nouvelles.
+
+- degree: BTS Informatique de Gestion - Lycée Parc de Vilgénis
+  timeperiod: Septembre 2009 - Juin 2011
+  description: Spécialité développement d'applications.
+
+# skill level goes 0 to 100
+skills:
+- name: HTML
+  level: 100
+- name: CSS
+  level: 100
+- name: JavaScript
+  level: 100
+- name: Java
+  level: 100
+- name: C#
+  level: 100
+- name: SQL
+  level: 100
+knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+  (English and Klingon).
+
+contact:
+  email: julien.bistoquet@gmail.com
+  phone: 07 67 91 12 56
+  street: 7 rue Mallet
+  city: 91200 Athis-Mons
+  website: 
+  github: lildesert
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+lang: fr
+`
