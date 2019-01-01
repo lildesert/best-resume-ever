@@ -4,7 +4,7 @@ const lang = {
     born: 'Né en',
     bornIn: 'à',
     age: ' ans',
-    experience: 'Expérience professionelle',
+    experience: 'Expérience',
     education: 'Formation',
     skills: 'Compétences',
     projects: 'Projets',

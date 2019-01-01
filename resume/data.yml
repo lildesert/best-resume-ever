@@ -19,7 +19,7 @@ experience:
   description:
   list:
     - Mise en place d'une version en marque blanche
-    - Refonte de formulaires, basé sur une architecture en composants
+    - Refonte de formulaires, basée sur une architecture en composants
     - Intégration de Stripe
     - Développement de fonctions Serverless (AWS) pour le traitement des pièces jointes
     - End to end testing (Jest / Puppeteer)
@@ -50,11 +50,11 @@ experience:
     - Refonte du site de l’entreprise avec le CMS Joomla
 
 education:
-- degree: Master MIAGE - Université Paris Dauphine
+- degree: Master MIAGE, Université Paris Dauphine
   timeperiod: Septembre 2012 - Septembre 2015
   description: Spécialité Système d'Information et Technologies Nouvelles
 
-- degree: BTS Informatique de Gestion - Lycée Parc de Vilgénis
+- degree: BTS Informatique de Gestion, Lycée Parc de Vilgénis
   timeperiod: Septembre 2009 - Juin 2011
   description: Spécialité développement d'applications
 

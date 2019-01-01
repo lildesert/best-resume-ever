@@ -50,13 +50,11 @@ experience:
     - Redesigned company's website using Joomla
 
 education:
-- degree: MIAGE Master's degree
-  school: Université Paris Dauphine
+- degree: MIAGE Master's degree, Paris Dauphine University
   timeperiod: September 2012 - September 2015
   description: Specializated in Information System and New Technologies
 
-- degree: IT Technical degree
-  school: Parc de Vilgénis High School
+- degree: IT Technical degree, Parc de Vilgénis High School
   timeperiod: September 2009 - June 2011
   description: Specializated in software engineering
 
