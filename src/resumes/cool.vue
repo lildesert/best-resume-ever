@@ -14,8 +14,11 @@
           </div>
 
           <div class="section-content section-content--plain">
-            {{ person.about }}
-            <br/>
+            {{ person.about1 }}
+            <br />
+            {{ person.about2 }}
+            <br />
+            {{ person.about3 }}
             <br/>
             {{ person.knowledge }}
           </div>
@@ -48,7 +51,10 @@
 
           <div class="section-content section-content--plain">
             <div class="section-link">
-              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}
+              <i class="section-link__icon material-icons">business</i>
+              {{ person.contact.street }}
+              <br />
+              {{ person.contact.city }}
             </div>
 
             <a
@@ -105,14 +111,21 @@
               class="section-content__item"
               :href="experience.website">
 
-              <span class="section-content__header">{{ experience.position }}</span>
+              <span class="section-content__header">{{ experience.company }}</span>
               <span class="section-content__subheader">
-                {{ experience.company }}
+                {{ experience.position }}
                 <span class="section-content__plain">{{ experience.location }}</span>
               </span>
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
               <span class="section-content__text--light">{{ experience.description }}</span>
+              <ul class="section-content" v-if="experience.list" >
+                <li v-for="(item, index) in experience.list" :key="index" class="section-content__li">
+                  <span class="section-content__text--light">
+                    {{item}}
+                  </span>
+                </li>
+              </ul>
             </a>
           </div>
         </div>
@@ -193,8 +206,11 @@ export default Vue.component(name, getVueOptions(name));
 </script>
 
 <style lang="less" scoped>
-@accent-color: #34495E;
-@banner-color: #42b883;
+@accent-color: #fff1c0;
+@banner-color: #d2d9e0;
+@text-color: #000;
+@text-color-a: rgba(0, 0, 0, 0.75);
+@font-size: 13px;
 @banner-height: 120px;
 @picture-size: 120px;
 @picture-offset: 35px;
@@ -239,7 +255,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
   */
-  color: white;
+  color: @text-color;
 
   &__fullname {
     font-size: 32px;
@@ -250,7 +266,7 @@ a {
   }
 
   &__location {
-    font-size: 12px;
+    font-size: @font-size;
   }
 }
 
@@ -267,11 +283,11 @@ a {
 
   &__left {
     width: @left-column-width;
-    color: rgba(255, 255, 255, 0.59);
+    color: @text-color-a;
     background-color: @accent-color;
 
     .section-headline {
-      color: white;
+      color: #000;
     }
   }
 
@@ -288,7 +304,7 @@ a {
 .section-headline {
   display: flex !important;
   align-items: center;
-  color: @accent-color;
+  color: @text-color;
   display: inline-block;
   font-size: 1.2em;
   margin: 8px 0;
@@ -301,21 +317,21 @@ a {
 
 .section-link {
   font-size: 1.1em;
-  color: rgba(255, 255, 255, 0.59) !important;
+  color: @text-color-a !important;
 
   &__icon {
-    color: white;
+    color: #000;
   }
 }
 
 .section-content {
   margin-top: 5px;
   padding-left: 32px;
-  font-size: 14px;
+  font-size: @font-size;
 
   &__item {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 16px;
   }
 
   &__header {
@@ -332,10 +348,10 @@ a {
   &__plain,
   &__text {
     display: block;
-    font-size: 12px;
+    font-size: @font-size;
 
     &--light {
-      font-size: 12px;
+      font-size: @font-size;
     }
   }
 
@@ -353,6 +369,22 @@ a {
   &--plain {
     padding: 0;
   }
+
+  &__li {
+    list-style-type: none;
+  }
+
+  &__li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -16px;
+  }
+}
+
+ul.section-content {
+  padding-left: 16px;
+  list-style-position: outside;
+  margin-bottom: 0;
 }
 
 .section-content-grid {
@@ -368,8 +400,8 @@ a {
 
 .squarred-grid-item {
   display: block;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid @text-color;
+  color: @text-color;
   margin-top: 5px;
   padding: 5px;
 }

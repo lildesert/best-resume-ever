@@ -1,0 +1,103 @@
+/* #*/ export const PERSON = `
+name:
+  first: Julien
+  middle:
+  last: Bistoquet
+about1: Passionate software engineer, I like to think about how to provide the best experience for the users, mixing performances with a nice and intuitive UI.
+about2: I'm looking to sharpen my javascript and mobile skills, but also to bring my determination in order to build ambitious products.
+position: Software Engineer
+
+birth:
+  year: 1991
+  age: 27
+  location: Thiais
+
+experience:
+- company: OneUp (San Francisco)
+  position: Frontend developer
+  timeperiod: February 2016 - October 2018
+  description:
+  list:
+    - Setup of a white label solution
+    - Progressive revamp of all the forms using a component-oriented architecture
+    - Stripe integration
+    - Serverless functions development on AWS
+    - End to end testing (Jest / Puppeteer)
+    - Mobile app development (Cordova)
+
+- company: Bouygues Telecom (Meudon)
+  position: Fullstack developer
+  timeperiod: September 2012 - September 2015
+  description:
+  list:
+    - Redesigned a ticketing application used by 400+ agent (ASP.NET)
+    - Created a responsive calendar app for 1000+ mobile users (ASP.NET MVC, Bootstrap)
+    - Designed and developed a mobile application repository. Implemented a rich and dynamic user interface with form and powerpoint generator (ASP .NET)
+    - Integration tests setup (Selenium, NodeJS et Mocha)
+
+- company: RATP (Fontenay sous Bois)
+  position: Web developer
+  timeperiod: January 2012 - February 2012
+  description:
+  list:
+    - Add features to a financial application used by 30 people (HTML/PHP/Javascript)
+
+- company: BC Partners (Boulogne-Billancourt)
+  position: Web developer
+  timeperiod: May 2011 - June 2011
+  description:
+  list:
+    - Redesigned company's website using Joomla
+
+education:
+- degree: MIAGE Master's degree
+  school: Université Paris Dauphine
+  timeperiod: September 2012 - September 2015
+  description: Specializated in Information System and New Technologies
+
+- degree: IT Technical degree
+  school: Parc de Vilgénis High School
+  timeperiod: September 2009 - June 2011
+  description: Specializated in software engineering
+
+# skill level goes 0 to 100
+skills:
+- name: HTML
+  level: 100
+- name: CSS
+  level: 100
+- name: JavaScript
+  level: 100
+- name: Java
+  level: 100
+- name: C#
+  level: 100
+- name: SQL
+  level: 100
+- name: AWS
+  level: 100
+
+languages:
+- name: French
+  level: Native
+- name: English
+  level: Fluent
+
+hobbies:
+- name: BBQ
+- name: Hike
+- name: Cocktails
+- name: Soccer
+- name: NBA
+- name: Travel
+
+contact:
+  email: julien.bistoquet@gmail.com
+  phone: +33 7 67 91 12 56
+  street: 9 Rue du Grand Prieuré
+  city: 75011 Paris
+  website:
+  github: lildesert
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+lang: en
+`

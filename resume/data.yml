@@ -3,61 +3,60 @@ name:
   first: Julien
   middle:
   last: Bistoquet
-about1: I'm a software engineer with a passion for technology, design, and innovation. Currently, I'm sharpening my mobile skills by creating an app to display NBA games scores.
-about2: I like to think about how to provide the best possible experience for our users, mixing performances with a nice and intuitive UI.
-position: Software Engineer
+about1: Développeur passionné, j'aime réfléchir à la manière de créer la meilleure expérience utilisateur possible, mélangeant performance et intuition.
+about2: Je cherche à affuter mes compétences javascript et mobile, mais aussi à apporter ma détermination pour bâtir des produits ambitieux.
+position: Développeur d'applications
 
 birth:
   year: 1991
+  age: 27
   location: Thiais
 
 experience:
-- company: OneUp
-  position: Frontend developer
-  timeperiod: February 2016 - October 2018
+- company: OneUp (San Francisco)
+  position: Développeur Frontend
+  timeperiod: Février 2016 - Octobre 2018
   description:
   list:
-    - Setup of a white label solution
-    - Progressive revamp of all the forms using our REST API
-    - Stripe integration
-    - Serverless functions development on AWS
+    - Mise en place d'une version en marque blanche
+    - Refonte de formulaires, basé sur une architecture en composants
+    - Intégration de Stripe
+    - Développement de fonctions Serverless (AWS) pour le traitement des pièces jointes
     - End to end testing (Jest / Puppeteer)
-    - Mobile app development (Cordova)
+    - Développement mobile (Cordova)
 
-- company: Bouygues Telecom
-  position: Fullstack developer
-  timeperiod: September 2012 - September 2015
+- company: Bouygues Telecom (Meudon)
+  position: Développeur Fullstack
+  timeperiod: Septembre 2012 - Septembre 2015
   description:
   list:
-    - Redesigned a ticketing application used by 400+ agent. (ASP.NET)
-    - Created a responsive calendar app for 1000+ mobile users. (ASP.NET MVC, Bootstrap)
-    - Designed and developed a mobile application repository. Implemented a rich and dynamic user interface with form and powerpoint generator. (ASP .NET)
-    - Integration tests setup. (Selenium, NodeJS et Mocha)
+    - Refonte d’une application de gestion de réclamations utilisée par 400+ conseillers de clientèle (ASP .NET)
+    - Développement d’une application web responsive pour 1000+ conseillers de clientèle (ASP .NET, Bootstrap)
+    - Création d’un référentiel d’applications mobiles Bouygues Telecom. Implémentation d'IHM dynamiques avec générateur de formulaire et de documents powerpoint (ASP .NET)
+    - Mise en place de tests d'intégrations (Selenium, NodeJS et Mocha)
 
-- company: RATP
-  position: Web developer (intern)
-  timeperiod: January 2012 - February 2012
+- company: RATP (Fontenay sous Bois)
+  position: Développeur Web
+  timeperiod: Janvier 2012 - Février 2012
   description:
   list:
-    - Add features to a financial application used by 30 people. (HTML/PHP/Javascript)
+    - Poursuite du développement d'une application d'estimation financière (HTML / PHP / Javascript)
 
-- company: BC Partners
-  position: Web developer (intern)
-  timeperiod: May 2011 - June 2011
+- company: BC Partners (Boulogne-Billancourt)
+  position: Développeur Web
+  timeperiod: Mai 2011 - Juin 2011
   description:
   list:
-    - Redesigned company's website using Joomla.
+    - Refonte du site de l’entreprise avec le CMS Joomla
 
 education:
-- degree: Master MIAGE
-  school: Université Paris Dauphine
+- degree: Master MIAGE - Université Paris Dauphine
   timeperiod: Septembre 2012 - Septembre 2015
-  description: Spécialité Système d'Information et Technologies Nouvelles.
+  description: Spécialité Système d'Information et Technologies Nouvelles
 
-- degree: BTS Informatique de Gestion
-  school: Lycée Parc de Vilgénis
+- degree: BTS Informatique de Gestion - Lycée Parc de Vilgénis
   timeperiod: Septembre 2009 - Juin 2011
-  description: Spécialité développement d'applications.
+  description: Spécialité développement d'applications
 
 # skill level goes 0 to 100
 skills:
@@ -73,21 +72,22 @@ skills:
   level: 100
 - name: SQL
   level: 100
-- name: AWS
-  level: 100
+knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+  (English and Klingon).
 
 languages:
-- name: French
-  level: Native
-- name: English
-  level: Fluent
+- name: Français
+  level: Natif
+- name: Anglais
+  level: Bilingue
 
 hobbies:
 - name: BBQ
-- name: Hike
+- name: Randonnée
 - name: Cocktails
-- name: Soccer
+- name: Football
 - name: NBA
+- name: Voyages
 
 contact:
   email: julien.bistoquet@gmail.com
@@ -97,5 +97,5 @@ contact:
   website:
   github: lildesert
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+lang: fr
 `

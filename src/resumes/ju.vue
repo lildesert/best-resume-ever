@@ -118,7 +118,7 @@
 
         <div class="banner__fullname">{{ person.name.first }} {{ person.name.middle }} {{ person.name.last }}</div>
         <div class="banner__position">{{ person.position }}</div>
-        <div class="banner__location">{{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</div>
+        <div class="banner__location">{{person.birth.age}} {{ lang.age }}</div>
 
         <div class="section">
           <div class="section-headline">
@@ -144,9 +144,9 @@
               class="section-content__item"
               :href="experience.website">
 
-              <span class="section-content__header">{{ experience.company }}</span>
+              <span class="section-content__header">{{ experience.position }}, {{ experience.company }}</span>
               <span class="section-content__subheader">
-                {{ experience.position }}
+
                 <span class="section-content__plain">{{ experience.location }}</span>
               </span>
 
@@ -175,8 +175,8 @@
               :key="index"
               :href="education.website">
 
-              <span class="section-content__header"> {{ education.school }} </span>
-              <span class="section-content__subheader">{{ education.degree }}</span>
+              <span class="section-content__header"> {{ education.degree }} </span>
+              <span class="section-content__subheader"> {{ education.school }} </span>
               <span class="section-content__text"> {{ education.timeperiod }} </span>
               <span class="section-content__text--light"> {{ education.description }} </span>
             </a>
@@ -260,7 +260,8 @@ a {
 
 .resume {
   position: relative;
-  font-family:'Roboto' !important;
+  // font-family:'Roboto' !important;
+  font-family: 'Montserrat', sans-serif !important;
   font-size: 0.9em;
 }
 
@@ -310,6 +311,8 @@ a {
   }
 
   &__left {
+    display: flex;
+    flex-direction: column;
     width: @left-column-width;
     color: @text-color-a;
     background-color: @accent-color;
@@ -330,6 +333,7 @@ a {
 
 .section {
   margin: 20px 0;
+  line-height: 17px;
 }
 
 .section-link,
@@ -339,7 +343,7 @@ a {
   color: @text-color;
   display: inline-block;
   font-size: 1.2em;
-  margin: 8px 0;
+  margin: 8px 0 12px;
 
   &__icon {
     margin-right: 8px;
@@ -358,7 +362,6 @@ a {
 
 .section-content {
   margin-top: 5px;
-  padding-left: 32px;
   font-size: @font-size;
 
   &__item {
@@ -369,7 +372,7 @@ a {
   &__header {
     display: block;
     font-size: 1.1em;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   &__subheader {

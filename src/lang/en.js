@@ -3,6 +3,7 @@ const lang = {
     contact: 'Contact',
     born: 'Born',
     bornIn: 'in',
+    age: ' years old',
     experience: 'Experience',
     education: 'Education',
     skills: 'Skills',
