@@ -4,7 +4,7 @@ name:
   middle:
   last: Bistoquet
 about1: Passionate software engineer, I like to think about how to provide the best experience for the users, mixing performances with a nice and intuitive UI.
-about2: I'm looking to sharpen my javascript and mobile skills, but also to bring my determination in order to build ambitious products.
+about2: I'm looking to sharpen my technical skills and bring my determination to build ambitious products.
 position: Software Engineer
 
 birth:
@@ -13,6 +13,15 @@ birth:
   location: Thiais
 
 experience:
+- company: Doctolib (Paris)
+  position: Fullstack developer
+  timeperiod: March 2019 - Now
+  description:
+  list:
+    - Development of a solution to deploy static websites (Rails / React)
+    - B2B / Careers websites revamp
+    - Tech recruitment
+
 - company: OneUp (San Francisco)
   position: Frontend developer
   timeperiod: February 2016 - October 2018
@@ -69,6 +78,8 @@ skills:
 - name: Java
   level: 100
 - name: C#
+  level: 100
+- name: Ruby
   level: 100
 - name: SQL
   level: 100
