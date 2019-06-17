@@ -78,6 +78,14 @@
         </div>
       </router-link>
     </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/ju'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-cool.png" />
+          <span>ju</span>
+        </div>
+      </router-link>
+    </div>
   </div>
 </div>
 </template>
