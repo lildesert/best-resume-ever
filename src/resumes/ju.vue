@@ -3,7 +3,7 @@
     <div class="content">
       <div class="content__left">
         <div class="section section-picture">
-          <img class="picture">
+          <img class="picture" />
         </div>
 
         <div class="section">
@@ -14,7 +14,7 @@
 
           <div class="section-content">
             {{ person.about1 }}
-            <br>
+            <br />
             {{ person.about2 }}
           </div>
         </div>
@@ -26,7 +26,7 @@
             <div class="section-link">
               <i class="section-link__icon material-icons">business</i>
               {{ person.contact.street }}
-              <br>
+              <br />
               {{ person.contact.city }}
             </div>
 
@@ -325,13 +325,14 @@ a {
   }
 }
 
-.section-picture {
-  text-align: center;
-}
-
 .section {
   margin: 20px 0;
   line-height: 17px;
+}
+
+.section-picture {
+  text-align: center;
+  margin-top: 0;
 }
 
 .section-top {

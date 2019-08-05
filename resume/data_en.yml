@@ -9,7 +9,7 @@ position: Software Engineer
 
 birth:
   year: 1991
-  age: 27
+  age: 28
   location: Thiais
 
 experience:
@@ -20,6 +20,7 @@ experience:
   list:
     - Development of a solution to deploy static websites (Rails / React)
     - B2B / Careers websites revamp
+    - SMS provider API integration
     - Tech recruitment
 
 - company: OneUp (San Francisco)
@@ -73,17 +74,19 @@ skills:
   level: 100
 - name: CSS
   level: 100
-- name: JavaScript
-  level: 100
 - name: Java
   level: 100
 - name: C#
   level: 100
 - name: Ruby
   level: 100
+- name: JavaScript
+  level: 100
 - name: SQL
   level: 100
 - name: AWS
+  level: 100
+- name: React
   level: 100
 
 languages:

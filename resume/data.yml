@@ -9,17 +9,18 @@ position: Développeur d'applications
 
 birth:
   year: 1991
-  age: 27
+  age: 28
   location: Thiais
 
 experience:
 - company: Doctolib (Paris)
-  position: Développeur fullstack
+  position: Développeur Fullstack
   timeperiod: Mars 2019 - Aujourd'hui
   description:
   list:
     - Développement d'une solution pour déployer des sites statiques (Rails / React)
     - Refonte des sites B2B et Careers
+    - Intégration d'un nouvelle solution d'envoi de SMS
     - Recrutement tech
 
 - company: OneUp (San Francisco)
@@ -83,6 +84,11 @@ skills:
   level: 100
 - name: SQL
   level: 100
+- name: AWS
+  level: 100
+- name: React
+  level: 100
+
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
